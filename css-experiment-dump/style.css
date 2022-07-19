@@ -1,0 +1,38 @@
+body {
+    border: 2px red solid;
+    color: black;
+}
+
+p {
+    border: 200px red solid;
+    margin: 5px;
+    padding: 5px;
+}
+
+ul {
+    border: 2px red solid; 
+    margin: 5px;
+    width: auto;
+}
+
+li {
+    border-left: 2px red solid; 
+    width: 5em 10em;
+    list-style: none;
+    margin: 5px;
+    background-image: linear-gradient(to right, black, white);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    width:min-content
+}
+
+li:hover {
+    background-image: linear-gradient(to right, white, black);
+}
+
+a:hover {
+    color: black;
+}
